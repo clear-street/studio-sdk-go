@@ -3,7 +3,7 @@
 <a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go"><img src="https://pkg.go.dev/badge/github.com/clear-street/studio-sdk-go.svg" alt="Go Reference"></a>
 
 The Studio SDK Go library provides convenient access to [the Studio SDK REST
-API](https://docs.studio-sdk.com) from applications written in Go. The full API of this library can be found in [api.md](api.md).
+API](https://docs.clearstreet.io) from applications written in Go. The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainlessapi.com/).
 
