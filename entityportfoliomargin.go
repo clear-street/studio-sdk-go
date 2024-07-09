@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/studio-sdk-go/internal/requestconfig"
-	"github.com/stainless-sdks/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
+	"github.com/sachnk/studio-sdk-go/option"
 )
 
 // EntityPortfolioMarginService contains methods and other services that help with

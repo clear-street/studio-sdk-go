@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/studio-sdk-go
+module github.com/sachnk/studio-sdk-go
 
 go 1.19
 

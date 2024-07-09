@@ -3,8 +3,8 @@
 package studiosdk
 
 import (
-	"github.com/stainless-sdks/studio-sdk-go/internal/apierror"
-	"github.com/stainless-sdks/studio-sdk-go/shared"
+	"github.com/sachnk/studio-sdk-go/internal/apierror"
+	"github.com/sachnk/studio-sdk-go/shared"
 )
 
 type Error = apierror.Error

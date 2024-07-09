@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stainless-sdks/studio-sdk-go/internal/apijson"
-	"github.com/stainless-sdks/studio-sdk-go/internal/apiquery"
-	"github.com/stainless-sdks/studio-sdk-go/internal/param"
-	"github.com/stainless-sdks/studio-sdk-go/internal/requestconfig"
-	"github.com/stainless-sdks/studio-sdk-go/option"
-	"github.com/stainless-sdks/studio-sdk-go/shared"
+	"github.com/sachnk/studio-sdk-go/internal/apijson"
+	"github.com/sachnk/studio-sdk-go/internal/apiquery"
+	"github.com/sachnk/studio-sdk-go/internal/param"
+	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
+	"github.com/sachnk/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go/shared"
 )
 
 // AccountPositionService contains methods and other services that help with
