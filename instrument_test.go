@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sachnk/studio-sdk-go"
-	"github.com/sachnk/studio-sdk-go/internal/testutil"
-	"github.com/sachnk/studio-sdk-go/option"
+	"github.com/clear-street/studio-sdk-go"
+	"github.com/clear-street/studio-sdk-go/internal/testutil"
+	"github.com/clear-street/studio-sdk-go/option"
 )
 
 func TestInstrumentGetWithOptionalParams(t *testing.T) {

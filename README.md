@@ -1,9 +1,9 @@
 # Studio SDK Go API Library
 
-<a href="https://pkg.go.dev/github.com/sachnk/studio-sdk-go"><img src="https://pkg.go.dev/badge/github.com/sachnk/studio-sdk-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go"><img src="https://pkg.go.dev/badge/github.com/clear-street/studio-sdk-go.svg" alt="Go Reference"></a>
 
 The Studio SDK Go library provides convenient access to [the Studio SDK REST
-API](https://docs.studio-sdk.com) from applications written in Go. The full API of this library can be found in [api.md](api.md).
+API](https://docs.clearstreet.io) from applications written in Go. The full API of this library can be found in [api.md](api.md).
 
 It is generated with [Stainless](https://www.stainlessapi.com/).
 
@@ -13,7 +13,7 @@ It is generated with [Stainless](https://www.stainlessapi.com/).
 
 ```go
 import (
-	"github.com/sachnk/studio-sdk-go" // imported as studiosdk
+	"github.com/clear-street/studio-sdk-go" // imported as studiosdk
 )
 ```
 
@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/sachnk/studio-sdk-go@v0.0.1-alpha.0'
+go get -u 'github.com/clear-street/studio-sdk-go@v0.1.0-alpha.1'
 ```
 
 <!-- x-release-please-end -->
@@ -44,8 +44,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sachnk/studio-sdk-go"
-	"github.com/sachnk/studio-sdk-go/option"
+	"github.com/clear-street/studio-sdk-go"
+	"github.com/clear-street/studio-sdk-go/option"
 )
 
 func main() {
@@ -153,7 +153,7 @@ client.Entities.Get(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/sachnk/studio-sdk-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/clear-street/studio-sdk-go/option).
 
 ### Pagination
 
@@ -337,4 +337,4 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/sachnk/studio-sdk-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/clear-street/studio-sdk-go/issues) with questions, bugs, or suggestions.
