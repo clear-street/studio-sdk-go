@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/stainless-sdks/studio-sdk-go/internal/requestconfig"
-	"github.com/stainless-sdks/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
+	"github.com/sachnk/studio-sdk-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with

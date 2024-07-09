@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/studio-sdk-go/internal/apijson"
-	"github.com/stainless-sdks/studio-sdk-go/internal/param"
-	"github.com/stainless-sdks/studio-sdk-go/internal/requestconfig"
-	"github.com/stainless-sdks/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go/internal/apijson"
+	"github.com/sachnk/studio-sdk-go/internal/param"
+	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
+	"github.com/sachnk/studio-sdk-go/option"
 )
 
 // AccountBulkOrderService contains methods and other services that help with

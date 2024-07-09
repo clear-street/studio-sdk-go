@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/studio-sdk-go"
-	"github.com/stainless-sdks/studio-sdk-go/internal"
-	"github.com/stainless-sdks/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go"
+	"github.com/sachnk/studio-sdk-go/internal"
+	"github.com/sachnk/studio-sdk-go/option"
 )
 
 type closureTransport struct {

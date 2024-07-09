@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/studio-sdk-go"
-	"github.com/stainless-sdks/studio-sdk-go/internal/testutil"
-	"github.com/stainless-sdks/studio-sdk-go/option"
+	"github.com/sachnk/studio-sdk-go"
+	"github.com/sachnk/studio-sdk-go/internal/testutil"
+	"github.com/sachnk/studio-sdk-go/option"
 )
 
 func TestAccountLocateOrderNewWithOptionalParams(t *testing.T) {
