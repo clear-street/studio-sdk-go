@@ -1,4 +1,4 @@
-module github.com/sachnk/studio-sdk-go
+module github.com/clear-street/studio-sdk-go
 
 go 1.19
 

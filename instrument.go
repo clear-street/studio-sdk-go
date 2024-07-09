@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/sachnk/studio-sdk-go/internal/apijson"
-	"github.com/sachnk/studio-sdk-go/internal/apiquery"
-	"github.com/sachnk/studio-sdk-go/internal/param"
-	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
-	"github.com/sachnk/studio-sdk-go/option"
+	"github.com/clear-street/studio-sdk-go/internal/apijson"
+	"github.com/clear-street/studio-sdk-go/internal/apiquery"
+	"github.com/clear-street/studio-sdk-go/internal/param"
+	"github.com/clear-street/studio-sdk-go/internal/requestconfig"
+	"github.com/clear-street/studio-sdk-go/option"
 )
 
 // InstrumentService contains methods and other services that help with interacting

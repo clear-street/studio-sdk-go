@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/sachnk/studio-sdk-go/internal/apijson"
+	"github.com/clear-street/studio-sdk-go/internal/apijson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

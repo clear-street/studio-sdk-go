@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/sachnk/studio-sdk-go/internal/apijson"
-	"github.com/sachnk/studio-sdk-go/internal/requestconfig"
-	"github.com/sachnk/studio-sdk-go/option"
+	"github.com/clear-street/studio-sdk-go/internal/apijson"
+	"github.com/clear-street/studio-sdk-go/internal/requestconfig"
+	"github.com/clear-street/studio-sdk-go/option"
 )
 
 // AccountService contains methods and other services that help with interacting
