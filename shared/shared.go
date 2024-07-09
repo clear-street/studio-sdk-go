@@ -3,8 +3,8 @@
 package shared
 
 import (
-	"github.com/sachnk/studio-sdk-go"
-	"github.com/sachnk/studio-sdk-go/internal/apijson"
+	"github.com/clear-street/studio-sdk-go"
+	"github.com/clear-street/studio-sdk-go/internal/apijson"
 )
 
 type LocateOrder struct {
