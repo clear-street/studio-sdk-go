@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.0-alpha.3 (2024-07-10)
+
+Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/clear-street/studio-sdk-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
+
+### Features
+
+* **api:** update via SDK Studio ([#10](https://github.com/clear-street/studio-sdk-go/issues/10)) ([c9b9ca5](https://github.com/clear-street/studio-sdk-go/commit/c9b9ca5a4051237b7ba14d78f757e6479c0b4f74))
+* **api:** update via SDK Studio ([#11](https://github.com/clear-street/studio-sdk-go/issues/11)) ([a86b585](https://github.com/clear-street/studio-sdk-go/commit/a86b5857a50e43c1be3085b14f5d4ccef42064bb))
+* **api:** update via SDK Studio ([#12](https://github.com/clear-street/studio-sdk-go/issues/12)) ([09cec2d](https://github.com/clear-street/studio-sdk-go/commit/09cec2dbfafe1b60c016e94be66ded2a88523083))
+* **api:** update via SDK Studio ([#7](https://github.com/clear-street/studio-sdk-go/issues/7)) ([05675da](https://github.com/clear-street/studio-sdk-go/commit/05675daad3170d9cfdc3276e4ce23096d6dfd089))
+
+
+### Chores
+
+* update SDK settings ([#13](https://github.com/clear-street/studio-sdk-go/issues/13)) ([fac6429](https://github.com/clear-street/studio-sdk-go/commit/fac642900ab3e1246c984d1819227316fa8dea30))
+
 ## 0.1.0-alpha.2 (2024-07-09)
 
 Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/clear-street/studio-sdk-go/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
