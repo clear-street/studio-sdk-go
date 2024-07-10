@@ -22,23 +22,23 @@ Methods:
 - <code title="get /entities/{entity_id}">client.Entities.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#Entity">Entity</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
 - <code title="get /entities">client.Entities.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityService.List">List</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityListResponse">EntityListResponse</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
 
-## PnlSummary
+## PnlSummaries
 
 Methods:
 
-- <code title="get /entities/{entity_id}/pnl-summary">client.Entities.PnlSummary.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityPnlSummaryService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#PnlSummary">PnlSummary</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
+- <code title="get /entities/{entity_id}/pnl-summary">client.Entities.PnlSummaries.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityPnlSummaryService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#PnlSummary">PnlSummary</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
 
-## RegtMargin
-
-Methods:
-
-- <code title="get /entities/{entity_id}/regt-margin">client.Entities.RegtMargin.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityRegtMarginService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#RegtMargin">RegtMargin</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
-
-## PortfolioMargin
+## RegtMargins
 
 Methods:
 
-- <code title="get /entities/{entity_id}/portfolio-margin">client.Entities.PortfolioMargin.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityPortfolioMarginService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#PortfolioMargin">PortfolioMargin</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
+- <code title="get /entities/{entity_id}/regt-margin">client.Entities.RegtMargins.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityRegtMarginService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#RegtMargin">RegtMargin</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
+
+## PortfolioMargins
+
+Methods:
+
+- <code title="get /entities/{entity_id}/portfolio-margin">client.Entities.PortfolioMargins.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#EntityPortfolioMarginService.Get">Get</a>(ctx <a href="https://pkg.go.dev/context">context</a>.<a href="https://pkg.go.dev/context#Context">Context</a>, entityID <a href="https://pkg.go.dev/builtin#string">string</a>) (<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go">studiosdk</a>.<a href="https://pkg.go.dev/github.com/clear-street/studio-sdk-go#PortfolioMargin">PortfolioMargin</a>, <a href="https://pkg.go.dev/builtin#error">error</a>)</code>
 
 ## RegtMarginSimulations
 

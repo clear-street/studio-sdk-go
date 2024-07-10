@@ -25,7 +25,7 @@ func TestEntityPortfolioMarginGet(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithBearerToken("My Bearer Token"),
 	)
-	_, err := client.Entities.PortfolioMargin.Get(context.TODO(), "x")
+	_, err := client.Entities.PortfolioMargins.Get(context.TODO(), "x")
 	if err != nil {
 		var apierr *studiosdk.Error
 		if errors.As(err, &apierr) {

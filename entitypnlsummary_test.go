@@ -25,7 +25,7 @@ func TestEntityPnlSummaryGet(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithBearerToken("My Bearer Token"),
 	)
-	_, err := client.Entities.PnlSummary.Get(context.TODO(), "x")
+	_, err := client.Entities.PnlSummaries.Get(context.TODO(), "x")
 	if err != nil {
 		var apierr *studiosdk.Error
 		if errors.As(err, &apierr) {
