@@ -24,7 +24,7 @@ func TestUsage(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithBearerToken("My Bearer Token"),
 	)
-	entity, err := client.Entities.Get(context.TODO(), "<your-entity-id>")
+	entity, err := client.Entities.Get(context.TODO(), "<your entity_id>")
 	if err != nil {
 		t.Error(err)
 	}

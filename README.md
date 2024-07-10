@@ -52,7 +52,7 @@ func main() {
 	client := studiosdk.NewClient(
 		option.WithBearerToken("My Bearer Token"), // defaults to os.LookupEnv("STUDIO_SDK_BEARER_TOKEN")
 	)
-	entity, err := client.Entities.Get(context.TODO(), "<your-entity-id>")
+	entity, err := client.Entities.Get(context.TODO(), "<your entity_id>")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -174,7 +174,7 @@ When the API returns a non-success status code, we return an error with type
 To handle errors, we recommend that you use the `errors.As` pattern:
 
 ```go
-_, err := client.Entities.Get(context.TODO(), "<your-entity-id>")
+_, err := client.Entities.Get(context.TODO(), "<your entity_id>")
 if err != nil {
 	var apierr *studiosdk.Error
 	if errors.As(err, &apierr) {
@@ -201,7 +201,7 @@ ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 defer cancel()
 client.Entities.Get(
 	ctx,
-	"<your-entity-id>",
+	"<your entity_id>",
 	// This sets the per-retry timeout
 	option.WithRequestTimeout(20*time.Second),
 )
@@ -237,7 +237,7 @@ client := studiosdk.NewClient(
 // Override per-request:
 client.Entities.Get(
 	context.TODO(),
-	"<your-entity-id>",
+	"<your entity_id>",
 	option.WithMaxRetries(5),
 )
 ```
