@@ -21,9 +21,9 @@ import (
 // the [NewEntityService] method instead.
 type EntityService struct {
 	Options               []option.RequestOption
-	PnlSummary            *EntityPnlSummaryService
-	RegtMargin            *EntityRegtMarginService
-	PortfolioMargin       *EntityPortfolioMarginService
+	PnlSummaries          *EntityPnlSummaryService
+	RegtMargins           *EntityRegtMarginService
+	PortfolioMargins      *EntityPortfolioMarginService
 	RegtMarginSimulations *EntityRegtMarginSimulationService
 }
 
@@ -33,9 +33,9 @@ type EntityService struct {
 func NewEntityService(opts ...option.RequestOption) (r *EntityService) {
 	r = &EntityService{}
 	r.Options = opts
-	r.PnlSummary = NewEntityPnlSummaryService(opts...)
-	r.RegtMargin = NewEntityRegtMarginService(opts...)
-	r.PortfolioMargin = NewEntityPortfolioMarginService(opts...)
+	r.PnlSummaries = NewEntityPnlSummaryService(opts...)
+	r.RegtMargins = NewEntityRegtMarginService(opts...)
+	r.PortfolioMargins = NewEntityPortfolioMarginService(opts...)
 	r.RegtMarginSimulations = NewEntityRegtMarginSimulationService(opts...)
 	return
 }
