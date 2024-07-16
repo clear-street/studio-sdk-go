@@ -33,7 +33,7 @@ func TestAccountLocateOrderNewWithOptionalParams(t *testing.T) {
 			Quantity:    studiosdk.F("x"),
 			ReferenceID: studiosdk.F("my-order-id-123"),
 			Symbol:      studiosdk.F("AAPL"),
-			Comments:    studiosdk.F("string"),
+			Comments:    studiosdk.F("comments"),
 		},
 	)
 	if err != nil {

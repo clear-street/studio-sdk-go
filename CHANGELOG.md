@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.4 (2024-07-16)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/clear-street/studio-sdk-go/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Features
+
+* **api:** update via SDK Studio ([#14](https://github.com/clear-street/studio-sdk-go/issues/14)) ([cb1bcf7](https://github.com/clear-street/studio-sdk-go/commit/cb1bcf7dd12e08ae355a49a2ebdc8ef33b2539ee))
+
 ## 0.1.0-alpha.3 (2024-07-10)
 
 Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/clear-street/studio-sdk-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)

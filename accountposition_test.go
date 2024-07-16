@@ -56,7 +56,7 @@ func TestAccountPositionListWithOptionalParams(t *testing.T) {
 		"x",
 		studiosdk.AccountPositionListParams{
 			PageSize:  studiosdk.F(int64(1)),
-			PageToken: studiosdk.F("string"),
+			PageToken: studiosdk.F("page_token"),
 		},
 	)
 	if err != nil {
