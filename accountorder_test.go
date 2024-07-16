@@ -94,7 +94,7 @@ func TestAccountOrderListWithOptionalParams(t *testing.T) {
 		studiosdk.AccountOrderListParams{
 			From:      studiosdk.F(int64(1710613560668)),
 			PageSize:  studiosdk.F(int64(1)),
-			PageToken: studiosdk.F("string"),
+			PageToken: studiosdk.F("page_token"),
 			To:        studiosdk.F(int64(1710613560668)),
 		},
 	)
