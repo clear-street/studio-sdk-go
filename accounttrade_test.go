@@ -56,7 +56,7 @@ func TestAccountTradeListWithOptionalParams(t *testing.T) {
 		"x",
 		studiosdk.AccountTradeListParams{
 			PageSize:  studiosdk.F(int64(1)),
-			PageToken: studiosdk.F("string"),
+			PageToken: studiosdk.F("page_token"),
 		},
 	)
 	if err != nil {

@@ -29,7 +29,7 @@ func TestEntityRegtMarginSimulationNewWithOptionalParams(t *testing.T) {
 		context.TODO(),
 		"x",
 		studiosdk.EntityRegtMarginSimulationNewParams{
-			Name:           studiosdk.F("string"),
+			Name:           studiosdk.F("name"),
 			IgnoreExisting: studiosdk.F(true),
 			Prices: studiosdk.F([]studiosdk.EntityRegtMarginSimulationNewParamsPrice{{
 				Symbol:       studiosdk.F("AAPL"),
